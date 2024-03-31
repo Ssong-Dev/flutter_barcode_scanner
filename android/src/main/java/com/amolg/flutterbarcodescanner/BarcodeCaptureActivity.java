@@ -117,16 +117,16 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             Log.e("BCActivity:onCreate()", "onCreate: " + e.getLocalizedMessage());
         }
 
-        Button btnBarcodeCaptureCancel = findViewById(R.id.btnBarcodeCaptureCancel);
-        btnBarcodeCaptureCancel.setText(buttonText);
-        btnBarcodeCaptureCancel.setOnClickListener(this);
-
-        imgViewBarcodeCaptureUseFlash = findViewById(R.id.imgViewBarcodeCaptureUseFlash);
-        imgViewBarcodeCaptureUseFlash.setOnClickListener(this);
-        imgViewBarcodeCaptureUseFlash.setVisibility(FlutterBarcodeScannerPlugin.isShowFlashIcon ? View.VISIBLE : View.GONE);
-
-        imgViewSwitchCamera = findViewById(R.id.imgViewSwitchCamera);
-        imgViewSwitchCamera.setOnClickListener(this);
+//        Button btnBarcodeCaptureCancel = findViewById(R.id.btnBarcodeCaptureCancel);
+//        btnBarcodeCaptureCancel.setText(buttonText);
+//        btnBarcodeCaptureCancel.setOnClickListener(this);
+//
+//        imgViewBarcodeCaptureUseFlash = findViewById(R.id.imgViewBarcodeCaptureUseFlash);
+//        imgViewBarcodeCaptureUseFlash.setOnClickListener(this);
+//        imgViewBarcodeCaptureUseFlash.setVisibility(FlutterBarcodeScannerPlugin.isShowFlashIcon ? View.VISIBLE : View.GONE);
+//
+//        imgViewSwitchCamera = findViewById(R.id.imgViewSwitchCamera);
+//        imgViewSwitchCamera.setOnClickListener(this);
 
         mPreview = findViewById(R.id.preview);
         mGraphicOverlay = findViewById(R.id.graphicOverlay);
